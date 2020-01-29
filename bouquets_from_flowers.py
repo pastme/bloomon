@@ -24,7 +24,7 @@ class BouquetProcessor(object):
     flowers_pattern = '(\d+)([a-z])'
 
     def __init__(self, stream):
-        self.sream = stream
+        self.stream = stream
         self.boquet_designs = {'L': [], 'S': []}
         self.total_count = {'S': 0, 'L': 0}
         self.flowers = {'S': Counter(), 'L': Counter()}
